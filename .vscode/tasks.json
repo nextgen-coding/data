@@ -1,0 +1,61 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Test Single Ramz Scraper",
+			"type": "shell",
+			"command": "C:/Users/ouede/ba/.venv/Scripts/python.exe",
+			"args": ["improved_ramz_test.py"],
+			"group": "test",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Complete Tunisia Scraper",
+			"type": "shell",
+			"command": "C:/Users/ouede/ba/.venv/Scripts/python.exe",
+			"args": ["complete_tunisia_scraper.py"],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Analyze Website Structure", 
+			"type": "shell",
+			"command": "C:/Users/ouede/ba/.venv/Scripts/python.exe",
+			"args": ["website_analyzer.py"],
+			"group": "test",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Open Jupyter Notebook",
+			"type": "shell",
+			"command": "C:/Users/ouede/ba/.venv/Scripts/python.exe",
+			"args": ["-m", "jupyter", "notebook", "notebooks/tunisia_university_scraper.ipynb"],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		}
+	]
+}
