@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-07-14 00:31:56",
+  "test_university": {
+    "university_name": "جامعة قرطاج",
+    "table_institution": "المعهد العالي للتصرف ببنزرت",
+    "table_location": "بنزرت"
+  },
+  "image_search": {
+    "query": "جامعة قرطاج بنزرت campus",
+    "success": true
+  },
+  "web_search": {
+    "query": "المعهد العالي للتصرف ببنزرت بنزرت Tunisia",
+    "results_count": 3,
+    "success": true
+  },
+  "gemini_analysis": {
+    "success": false,
+    "response_length": 0,
+    "response": ""
+  }
+}

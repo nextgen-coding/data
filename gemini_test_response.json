@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-07-14 00:42:39",
+  "test_university": {
+    "university_name": "جامعة قرطاج",
+    "institution": "المعهد العالي للتصرف ببنزرت",
+    "location": "بنزرت"
+  },
+  "gemini_search_grounding": {
+    "query": "Please provide detailed information about المعهد العالي للتصرف ببنزرت \n        in بنزرت, Tunisia. Include:\n        \n        1. Academic programs and specializations offered\n        2. Campus facilities and infrastructure\n        3. Student enrollment and faculty information\n        4. Employment prospects for graduates\n        5. Unique features or reputation of this institution\n        6. Recent developments or news about the institution\n        \n        Please search for current and accurate information about this Tunisian educational institution.",
+    "success": true,
+    "has_grounding": true,
+    "search_queries": [
+      "المعهد العالي للتصرف ببنزرت student enrollment faculty",
+      "المعهد العالي للتصرف ببنزرت graduates employment prospects",
+      "المعهد العالي للتصرف ببنزرت unique features reputation",
+      "المعهد العالي للتصرف ببنزرت campus facilities",
+      "المعهد العالي للتصرف ببنزرت recent news",
+      "Higher Institute of Business Administration of Bizerte Tunisia academic programs",
+      "Higher Institute of Business Administration of Bizerte Tunisia campus facilities",
+      "Higher Institute of Business Administration of Bizerte Tunisia student enrollment faculty",
+      "Higher Institute of Business Administration of Bizerte Tunisia unique features reputation",
+      "Higher Institute of Business Administration of Bizerte Tunisia recent news",
+      "Higher Institute of Business Administration of Bizerte Tunisia graduates employment prospects",
+      "المعهد العالي للتصرف ببنزرت academic programs"
+    ],
+    "response_length": 3407,
+    "response_preview": "The Higher Institute of Business Administration of Bizerte (ISG Bizerte), formerly known as the Higher Institute of Commerce and Accounting of Bizerte (ISCCB), is a public higher education institution located in Bizerte, Tunisia. It is administratively under the supervision of the University of Carthage.\n\nHere's detailed information about the institute:\n\n**1. Academic Programs and Specializations Offered:**\n\n*   **Management Sciences:** Marketing, Accounting, Finance, Business Administration, Lo..."
+  },
+  "university_image_search": {
+    "query": "جامعة قرطاج بنزرت campus building",
+    "success": true
+  },
+  "institution_image_search": {
+    "query": "المعهد العالي للتصرف ببنزرت بنزرت building",
+    "success": true
+  }
+}
